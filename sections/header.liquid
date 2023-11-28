@@ -8,9 +8,9 @@
 
       <!-- NAVIGATION MENU -->
       <nav class="hidden md:flex space-x-10">
-            {%for link in linklists.main-menu.links %}
-                 <div class="relative">
-                    <a href="{{link.url}}" class="text-base text-gray-500 hover:text-gray-900">{{ Link.title}}</a>
+            {% for link in linklists.main-menu.links %}
+                <div class="relative">
+                 <a href="{{link.url}}" class="text-base text-gray-500 hover:text-gray-900">{{ Link.title}}</a>
                 </div>
             {% endfor %}
 
